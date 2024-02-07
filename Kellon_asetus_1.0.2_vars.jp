@@ -1,0 +1,186 @@
+name='Kellon asetus'
+dev='Jaakko Talvitie'
+os_ver='1.0'
+app_ver='1.0.2'
+perms='OPT'
+
+objs='12'
+pages='4'
+vars='4'
+
+m1 §ekatunti§='0'
+m2 §tokatunti§='0'
+m3 §ekaminuutti§='0'
+m4 §tokaminuutti§='0'
+
+p1{
+        sr_rt='+§ekatunti§'
+        sr_lt='-§ekatunti§'
+        bt_up='page2'
+        bt_dn=''
+        r='0'
+        g='0'
+        b='100'
+}
+p2{
+        sr_rt='+§tokatunti§'
+        sr_lt='-§tokatunti§'
+        bt_up='page3'
+        bt_dn='page1'
+        r='0'
+        g='0'
+        b='100'
+}
+p3{
+        sr_rt='+§ekaminuutti§'
+        sr_lt='-§ekaminuutti§'
+        bt_up='page4'
+        bt_dn='page2'
+        r='0'
+        g='0'
+        b='100'
+}
+p4{
+        sr_rt='+§tokaminuutti§'
+        sr_lt='-§tokaminuutti§'
+        bt_up='exit'
+        bt_dn='page3'
+        r='0'
+        g='0'
+        b='100'
+}
+
+o1{
+	type='text'
+	x='40'
+	y='25'
+	s='25'
+	v='Aseta kellonaika'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+
+o2{
+	type='box'
+	x='37'
+	y='85'
+	h='50'
+	w='35'
+	r='0' 
+	g='100'
+	b='100'
+        p='1'
+}
+o3{
+	type='box'
+	x='77'
+	y='85'
+	h='50'
+	w='35'
+	r='0' 
+	g='100'
+	b='100'
+        p='2'
+}
+o4{
+	type='box'
+	x='130'
+	y='85'
+	h='50'
+	w='35'
+	r='0' 
+	g='100'
+	b='100'
+        p='3'
+}
+o5{
+	type='box'
+	x='170'
+	y='85'
+	h='50'
+	w='35'
+	r='0' 
+	g='100'
+	b='100'
+        p='4'
+}
+o6{
+	type='text'
+	x='47'
+	y='62'
+	s='30'
+	v='§ekatunti§'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+o7{
+	type='text'
+	x='87'
+	y='62'
+	s='30'
+	v='§tokatunti§'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+o8{
+	type='text'
+	x='117'
+	y='62'
+	s='30'
+	v=':'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+o9{
+	type='text'
+	x='142'
+	y='62'
+	s='30'
+	v='§ekaminuutti§'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+o10{
+	type='text'
+	x='180'
+	y='62'
+	s='30'
+	v='§tokaminuutti§'
+	r='255'
+	g='255'
+	b='255'
+        p='0'
+}
+o11{
+	type='text'
+	x='85'
+	y='125'
+	s='25'
+	v='Säädä'
+	r='0'
+	g='0'
+	b='255'
+        p='0'
+}
+o12{
+	type='text'
+	x='50'
+	y='150'
+	s='25'
+	v='pyörittämällä'
+	r='0'
+	g='0'
+	b='255'
+        p='0'
+}
+
