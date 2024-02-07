@@ -13,3 +13,7 @@ https://jaakkagames.net/alykello/ohjelma/index_edit.php
 
 Older version, added pages
 https://jaakkagames.net/alykello/ohjelma/index.php
+
+
+smartwatch project here:
+https://github.com/jaakka/arduino_smartwatch_with_custom_os
